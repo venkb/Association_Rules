@@ -4,7 +4,7 @@ library(arules) #package for implementing association rules
 
 
 #load the data
-setwd('D:\\Venkat\\Villanova\\Data Science Projects\\Association_Rules')
+#setwd('Pick the folder that contains Market_Basket.csv')
 dataset = read.csv('Market_Basket.csv',
                    header = FALSE)
 
